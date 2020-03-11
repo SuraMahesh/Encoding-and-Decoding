@@ -1,5 +1,5 @@
 import base64
-image encoding
+#image encoding
 
 with open('opencv.png', 'rb') as binary_file:
     binary_file_data = binary_file.read()
@@ -8,7 +8,7 @@ with open('opencv.png', 'rb') as binary_file:
 
     print(base64_message)
 
-image decoding
+#image decoding
 
 base64_img = 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAA' \
             'LEwEAmpwYAAAB1klEQVQ4jY2TTUhUURTHf+fy/HrjhNEX2KRGiyIXg8xgSURuokX' \
